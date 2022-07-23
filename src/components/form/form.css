@@ -1,0 +1,9 @@
+.text-example {
+    overflow-x: auto;
+    white-space: unset;
+    text-align: left;
+    font-size: .7rem;
+    padding: 8px 10px;
+    margin: 20px 0;
+    line-height: 1.5rem;
+}
