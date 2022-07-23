@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/youtube-playlist-url-generator/static/css/main.aaeaf581.css",
-    "main.js": "/youtube-playlist-url-generator/static/js/main.f10fcee6.js",
+    "main.css": "/youtube-playlist-url-generator/static/css/main.4bf341bd.css",
+    "main.js": "/youtube-playlist-url-generator/static/js/main.c08358d3.js",
     "static/js/787.0cc07bd1.chunk.js": "/youtube-playlist-url-generator/static/js/787.0cc07bd1.chunk.js",
     "static/media/footer.svg": "/youtube-playlist-url-generator/static/media/footer.634f7aed1b846cf29ede7eb6b2faec58.svg",
     "static/media/playlist.svg": "/youtube-playlist-url-generator/static/media/playlist.56b371df88a708014321c2962b3b4817.svg",
     "index.html": "/youtube-playlist-url-generator/index.html",
-    "main.aaeaf581.css.map": "/youtube-playlist-url-generator/static/css/main.aaeaf581.css.map",
-    "main.f10fcee6.js.map": "/youtube-playlist-url-generator/static/js/main.f10fcee6.js.map",
+    "main.4bf341bd.css.map": "/youtube-playlist-url-generator/static/css/main.4bf341bd.css.map",
+    "main.c08358d3.js.map": "/youtube-playlist-url-generator/static/js/main.c08358d3.js.map",
     "787.0cc07bd1.chunk.js.map": "/youtube-playlist-url-generator/static/js/787.0cc07bd1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaeaf581.css",
-    "static/js/main.f10fcee6.js"
+    "static/css/main.4bf341bd.css",
+    "static/js/main.c08358d3.js"
   ]
 }
