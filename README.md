@@ -1,6 +1,6 @@
 # Convert youtube links and videoids to playlist
 
-![screenshot](screenshot.png)
+[![screenshot](screenshot.png)](https://apricot13.github.io/youtube-playlist-url-generator/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

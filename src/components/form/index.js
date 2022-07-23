@@ -122,7 +122,7 @@ function Form() {
 
 
 
-        <div className="w-1/3 my-16 mx-auto">
+        <div className="w-full px-4 md:w-1/3 my-16 mx-auto">
           <div className="form-control">
             <textarea className="textarea textarea-primary textarea-bordered h-48" placeholder="Paste links and videoIDs here" id="links" onChange={handleClick}></textarea>
             <label className="label">
@@ -134,11 +134,11 @@ function Form() {
 
         {actioned && (
         <>
-                <div className="w-1/4 my-16 mx-auto">
+                <div className="w-full px-4 md:w-1/4 my-16 mx-auto">
                   <div className="divider"></div>
                 </div>
 
-                <div className="w-1/3 my-16 mx-auto text-center">
+                <div className="w-full px-4 md:w-1/3 my-16 mx-auto text-center">
                   <a href={playlistUrl} target="_blank" rel="noreferrer" className="btn btn-primary btn-lg">Open playlist in new window</a>
                   <br />
                   <br />
@@ -168,14 +168,14 @@ function Form() {
                   <div className="stat">
                     <div className="stat-title">Videos duplicated</div>
                     <div className="stat-value">{duplicateLinks.length}</div>
-                    <div class="stat-desc">We've removed these for you!</div>
+                    <div className="stat-desc">We've removed these for you!</div>
                   </div>
                   }
                   
                 </div>
 
                 <div className='card bg-accent text-accent-content'>
-                <div class="card-body">
+                <div className="card-body">
                 <p className="text-sm py-4">Once you have your playlist you can optionally copy the list value youtube generates and copy it into this url format, this will allow you to name your playlist or share it more easily.</p>
                 
                 <div className="form-control">
