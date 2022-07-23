@@ -3,7 +3,7 @@ import Logo from '../logo';
 
 function Cta() {
   return (
-    <section className="container mx-auto text-center py-6 mb-12 content-center">
+    <section className="container mx-auto text-center py-6 content-center">
       <div className="mx-auto">
       <Logo />
       </div>
