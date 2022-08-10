@@ -1,4 +1,5 @@
 import {useState, useEffect} from 'react';
+import {isJson} from './../../utils'
 import './form.css'
 
 function Form() {
@@ -9,6 +10,7 @@ function Form() {
   const [newPlaylistListLink, setNewPlaylistListLink] = useState('');
   const maxVideoNumber = 50;
 
+
   useEffect(() => {
     setPlaylistUrl(formatPlaylistUrl(links))
 }, [links]);
@@ -17,8 +19,15 @@ function Form() {
     e.preventDefault();
 
     const linksList = document.getElementById('links').value.trim();
+
     if (linksList.length > 0) { 
-      setLinks(manageLinks(linksList)); 
+
+      if(isJson(linksList)) {
+        setLinks(manageJsonLinks(linksList)); 
+      } else {
+        setLinks(manageLinks(linksList)); 
+      }
+
       setActioned(true) 
       setPlaylistUrl(formatPlaylistUrl(links))
     } else {
@@ -37,6 +46,15 @@ function Form() {
     }
   }
 
+
+  // secret processing
+  const manageJsonLinks = (linksList) => { 
+    const data = JSON.parse(linksList);
+    const idArray = data.map(link => link.videoId );
+    const uniqueIdArray = idArray.filter(i=>i.length > 0).filter((v, i, a) => a.indexOf(v) === i);
+    setDuplicateLinks(uniqueIdArray)
+    return uniqueIdArray;
+  }
 
 
   // support for:
