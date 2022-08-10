@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/youtube-playlist-url-generator/static/css/main.39ab5505.css",
-    "main.js": "/youtube-playlist-url-generator/static/js/main.bea444ba.js",
+    "main.js": "/youtube-playlist-url-generator/static/js/main.a43fa75c.js",
     "static/js/787.0cc07bd1.chunk.js": "/youtube-playlist-url-generator/static/js/787.0cc07bd1.chunk.js",
     "static/media/footer.svg": "/youtube-playlist-url-generator/static/media/footer.634f7aed1b846cf29ede7eb6b2faec58.svg",
     "static/media/playlist.svg": "/youtube-playlist-url-generator/static/media/playlist.56b371df88a708014321c2962b3b4817.svg",
     "index.html": "/youtube-playlist-url-generator/index.html",
     "main.39ab5505.css.map": "/youtube-playlist-url-generator/static/css/main.39ab5505.css.map",
-    "main.bea444ba.js.map": "/youtube-playlist-url-generator/static/js/main.bea444ba.js.map",
+    "main.a43fa75c.js.map": "/youtube-playlist-url-generator/static/js/main.a43fa75c.js.map",
     "787.0cc07bd1.chunk.js.map": "/youtube-playlist-url-generator/static/js/787.0cc07bd1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39ab5505.css",
-    "static/js/main.bea444ba.js"
+    "static/js/main.a43fa75c.js"
   ]
 }
